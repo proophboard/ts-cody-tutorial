@@ -21,4 +21,5 @@ docker-compose up -d --no-recreate
 
 docker-compose ps
 
+echo ""
 echo "Cody tutorial ready. Visit https://wiki.prooph-board.com/Node.js-Cody-Tutorial-Exercise-I"
