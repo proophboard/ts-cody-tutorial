@@ -1,13 +1,55 @@
-# Cody Typescript Tutorial
+# ts-iio-cody-tutorial
+TypeScript Cody Tutorial Exercises
 
-Please clone this repository and execute the `setup.sh` script to speed up your [Cody Typescript Tutotial setup](https://wiki.prooph-board.com/Node.js-Cody-Tutorial).
+You can find the tutorial in the [prooph board wiki](https://wiki.prooph-board.com/cody/nodejs-cody-tutorial.html)
 
-For a quick start execute the commands beneath:
+## Set up
 
+### Clone the tutorial repo
+
+```bash
+git clone https://github.com/proophboard/ts-cody-tutorial.git cody-tutorial
+cd cody-tutorial
 ```
-git clone git@github.com:proophboard/ts-cody-tutorial.git
-cd ts-cody-tutorial
-./setup.sh
+
+### Install dependencies
+
+```bash
+npm install
 ```
 
-Open the [free version of prooph board](https://free.prooph-board.com/i) and head over for your [first exercise from the Wiki](https://wiki.prooph-board.com/Node.js-Cody-Tutorial-Exercise-I).
+or
+
+```bash
+yarn install
+```
+
+### Initialize Cody
+
+```bash
+npm run bootstrap
+```
+
+or
+
+```bash
+yarn bootstrap
+```
+
+### Start Cody Server
+
+```bash
+npm run cody
+```
+
+or
+
+```bash
+yarn cody
+```
+
+## Exercises
+
+This tutorial uses test-driven development. Each exercise is covered by a test case. Your task is to make those tests green.
+
+Follow the guideline at [prooph board wiki](https://wiki.prooph-board.com/cody/nodejs-cody-tutorial.html).

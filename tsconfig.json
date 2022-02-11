@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2020",
+    "sourceMap": true,
+    "lib": ["es2020"],
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["**/*.test.ts"]
+}

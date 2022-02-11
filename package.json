@@ -1,0 +1,36 @@
+{
+  "name": "ts-iio-cody-tutorial",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "proophboard init",
+    "cody": "nodemon --watch .codyhooks/**/* --watch codyconfig.ts --ext ts,json --exec 'npx proophboard start'",
+    "exercise1": "jest exercise1",
+    "exercise2": "jest exercise2",
+    "exercise3": "jest exercise3",
+    "prettier": "prettier --single-quote --arrow-parens always --print-width 120 --tab-width 4 --write '../src/**/*.{ts,tsx}'",
+    "tslint": "tslint -c tslint.json '../src/**/*.{ts,tsx}'",
+    "tslint-fix": "tslint -c tslint.json --fix '../src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "@proophboard/cody-server": "^0.3.3",
+    "@proophboard/cody-types": "^0.3.2",
+    "@proophboard/cody-utils": "^0.2.0",
+    "immutable": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^11.12.1",
+    "@types/prettier": "^2.1.0",
+    "concurrently": "^3.5.1",
+    "jest": "^26.4.2",
+    "jest-junit": "^13.0.0",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^26.4.0",
+    "ts-node": "^10.5.0",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.1"
+  }
+}
