@@ -18,34 +18,16 @@ cd cody-tutorial
 npm install
 ```
 
-or
-
-```bash
-yarn install
-```
-
 ### Initialize Cody
 
 ```bash
 npm run bootstrap
 ```
 
-or
-
-```bash
-yarn bootstrap
-```
-
 ### Start Cody Server
 
 ```bash
 npm run cody
-```
-
-or
-
-```bash
-yarn cody
 ```
 
 ## Exercises
